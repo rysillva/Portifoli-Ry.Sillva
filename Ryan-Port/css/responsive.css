@@ -1,0 +1,57 @@
+footer{
+
+    margin-top:120px;
+
+    padding:70px 10%;
+
+    text-align:center;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+footer h2{
+
+    font-size:2rem;
+
+    margin-bottom:15px;
+
+}
+
+footer p{
+
+    color:var(--text-secondary);
+
+}
+
+.footer-social{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    margin:35px 0;
+
+}
+
+.footer-social a{
+
+    transition:.3s;
+
+}
+
+.footer-social a:hover{
+
+    color:var(--primary);
+
+}
+
+footer span{
+
+    color:var(--text-secondary);
+
+    font-size:.9rem;
+
+}
