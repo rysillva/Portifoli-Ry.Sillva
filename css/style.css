@@ -1328,3 +1328,36 @@ footer span{
     resize:none;
 
 }
+
+footer span{
+    color:var(--text-secondary);
+    font-size:.9rem;
+}
+
+/* Responsividade */
+@media (max-width:768px){
+
+    .hero{
+        grid-template-columns:1fr;
+        text-align:center;
+        gap:50px;
+    }
+
+    .hero-visual{
+        width:100%;
+        height:auto;
+    }
+
+    .profile-card{
+        width:220px;
+        height:220px;
+        margin:auto;
+    }
+
+    .terminal{
+        position:static;
+        width:100%;
+        margin-top:30px;
+    }
+
+}
