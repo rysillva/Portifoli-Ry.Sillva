@@ -2,24 +2,28 @@
 
 Bem-vindo ao repositório do meu portfólio! 🚀
 
-Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, projetos e informações profissionais de forma moderna, responsiva e intuitiva.
-
----
+Este projeto foi desenvolvido para apresentar minhas habilidades, projetos e trajetória como desenvolvedor, reunindo minhas principais competências em um site moderno, responsivo e intuitivo.
 
 ## ✨ Funcionalidades
 
-- 🎨 Design moderno e responsivo
+- 🎨 Interface moderna e responsiva
 - 📱 Compatível com dispositivos móveis
-- 👨‍💻 Seção Sobre Mim
-- 🚀 Projetos desenvolvidos
-- 🛠️ Tecnologias utilizadas
-- 📞 Área de contato
+- 👨‍💻 Seção "Sobre Mim"
+- 🚀 Exibição dos principais projetos
+- 🛠️ Tecnologias e habilidades
+- 📞 Formulário de contato
 - 📄 Download do currículo
-- 🌙 Interface elegante
+- 🌙 Design limpo e profissional
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
+
+<div align="left">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,vscode,git,github" />
+
+</div>
 
 - HTML5
 - CSS3
@@ -31,7 +35,7 @@ Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, p
 
 ## 📂 Estrutura do Projeto
 
-```
+```text
 portfolio/
 │
 ├── css/
@@ -42,7 +46,6 @@ portfolio/
 │   └── script.js
 │
 ├── img/
-│
 ├── assets/
 │
 ├── index.html
@@ -53,64 +56,74 @@ portfolio/
 
 ## 🚀 Como Executar
 
-1. Clone este repositório
+Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/portfolio.git
+git clone https://github.com/rysillva/Portifoli-Ry.Sillva.git
 ```
 
-2. Abra a pasta do projeto
+Entre na pasta do projeto:
 
 ```bash
-cd portfolio
+cd Portifoli-Ry.Sillva
 ```
 
-3. Abra o arquivo `index.html` no navegador.
+Abra o arquivo `index.html` em seu navegador.
 
 ---
 
-## 📌 Objetivo
+## 🎯 Objetivo
 
-Este portfólio foi desenvolvido para demonstrar minhas habilidades em desenvolvimento Front-end e servir como apresentação profissional para oportunidades de estágio, jovem aprendiz e desenvolvimento web.
+Este portfólio foi desenvolvido para apresentar meu trabalho como desenvolvedor Front-end, demonstrando minhas habilidades técnicas e servindo como uma vitrine para oportunidades de estágio, jovem aprendiz e futuras oportunidades profissionais na área de tecnologia.
 
 ---
 
 ## 👨‍💻 Sobre Mim
 
-Sou estudante do **3º ano do Ensino Médio Integrado ao Técnico em Informática para Internet** na ETEC Paulo do Carmo Monteiro.
+Sou **Ryan Luis da Silva**, estudante do **3º ano do Ensino Médio Integrado ao Técnico em Informática para Internet** pela **ETEC Paulo do Carmo Monteiro**.
 
 Tenho interesse em:
 
-- Desenvolvimento Web
-- Front-end
-- Back-end
-- JavaScript
-- Node.js
-- Banco de Dados SQL
-- Inteligência Artificial
+- 🌐 Desenvolvimento Web
+- 🎨 Front-end
+- ⚙️ Back-end
+- 📜 JavaScript
+- 🟢 Node.js
+- 🗄️ SQL
+- 🤖 Inteligência Artificial
 
-Estou sempre buscando aprender novas tecnologias e desenvolver projetos que aprimorem minhas habilidades.
+Estou sempre buscando aprender novas tecnologias e desenvolver projetos que aprimorem minhas habilidades como desenvolvedor.
+
+---
+
+## 🌐 Acesse o Projeto
+
+🔗 **Portfólio Online**
+
+➡️ https://rysillva.github.io/Portifoli-Ry.Sillva/
 
 ---
 
 ## 📫 Contato
 
-📧 Email: **ry.luis239@gmail.com**
-
-💼 LinkedIn:
-*www.linkedin.com/in/rysillva*
-
-🌐 Portfólio:
-https://rysillva.github.io/Portifoli-Ry.Sillva/*
+- 📧 **E-mail:** ry.luis239@gmail.com
+- 💼 **LinkedIn:** https://www.linkedin.com/in/rysillva
+- 🐙 **GitHub:** https://github.com/rysillva
 
 ---
 
 ## 📄 Licença
 
-Este projeto é de uso pessoal e está disponível para fins de estudo e inspiração.
+Este projeto é destinado para fins de estudo e apresentação profissional.
+
+Sinta-se à vontade para utilizá-lo como inspiração, respeitando os devidos créditos.
 
 ---
 
-### ⭐ Se gostou deste projeto, deixe uma estrela no repositório!
+<div align="center">
 
-Feito com ❤️ por **Ryan Luis da Silva**
+### ⭐ Se este projeto foi útil para você, deixe uma estrela no repositório!
+
+**Feito com ❤️ por Ryan Luis da Silva**
+
+</div>
