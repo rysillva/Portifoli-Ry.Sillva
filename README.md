@@ -13,7 +13,7 @@ Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, p
 Adicione aqui uma imagem do seu site.
 
 ```md
-/assets/images/preview.png
+/assets/images/capturar.png
 ```
 
 ---
@@ -110,10 +110,10 @@ Estou sempre buscando aprender novas tecnologias e desenvolver projetos que apri
 📧 Email: **ry.luis239@gmail.com**
 
 💼 LinkedIn:
-*(Adicione o link do seu perfil)*
+*www.linkedin.com/in/rysillva*
 
 🌐 Portfólio:
-*(Adicione o link quando publicar)*
+https://rysillva.github.io/Portifoli-Ry.Sillva/*
 
 ---
 
