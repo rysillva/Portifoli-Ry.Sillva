@@ -606,21 +606,10 @@ section.show{
 }
 
 .terminal-header{
-
     height:42px;
-
     display:flex;
-
-    border-radius: 10px
-
+    border-radius:10px;
     align-items:center;
-
-    gap:8px;
-
-    padding:0 18px;
-
-    background:#1F2937;
-
 }
 
 .red,
@@ -1279,7 +1268,7 @@ footer span{
 
 .contact-social a:hover{
 
-    background:var;
+    background:var(--primary);
 
     transform:translateY(-5px);
 
