@@ -4,18 +4,6 @@ Bem-vindo ao repositório do meu portfólio! 🚀
 
 Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, projetos e informações profissionais de forma moderna, responsiva e intuitiva.
 
-## 🌐 Demonstração
-
-> Em breve disponível pelo GitHub Pages.
-
-## 📸 Preview
-
-Adicione aqui uma imagem do seu site.
-
-```md
-/assets/images/capturar.png
-```
-
 ---
 
 ## ✨ Funcionalidades
