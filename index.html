@@ -529,20 +529,34 @@ Disponível para Estágio
 
         </div>
 
-        <form class="contact-form">
+       <form id="contact-form" class="contact-form">
 
-            <input type="text" placeholder="Nome" required>
+            <input
+                type="text"
+                name="from_name"
+                placeholder="Nome"
+                required>
 
-            <input type="email" placeholder="Email" required>
+            <input
+                type="email"
+                name="from_email"
+                placeholder="Email"
+                required>
 
-            <input type="text" placeholder="Assunto">
+            <input
+                type="text"
+                name="subject"
+                placeholder="Assunto"
+                required>
 
-            <textarea placeholder="Mensagem" rows="7" required></textarea>
+            <textarea
+                name="message"
+                rows="7"
+                placeholder="Digite sua mensagem..."
+                required></textarea>
 
-            <button class="btn">
-
+            <button class="btn" type="submit">
                 Enviar Mensagem
-
             </button>
 
         </form>
@@ -591,6 +605,16 @@ Disponível para Estágio
 <script>
 lucide.createIcons();
 </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init({
+    publicKey: "SUA_PUBLIC_KEY"
+});
+</script>
+
+<script src="js/email.js"></script>
 
 </body>
 
