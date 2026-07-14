@@ -55,3 +55,41 @@ footer span{
     font-size:.9rem;
 
 }
+
+/* ========================= */
+/* RESPONSIVO MOBILE */
+/* ========================= */
+
+@media (max-width:768px){
+
+    footer{
+        margin-top:60px;
+        padding:40px 20px;
+    }
+
+    footer h2{
+        font-size:1.5rem;
+    }
+
+    footer p{
+        font-size:.95rem;
+        line-height:1.6;
+    }
+
+    .footer-social{
+        flex-direction:column;
+        gap:15px;
+        margin:25px 0;
+    }
+
+    .footer-social a{
+        display:block;
+        width:100%;
+        padding:10px 0;
+    }
+
+    footer span{
+        font-size:.8rem;
+    }
+
+}
