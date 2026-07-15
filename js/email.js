@@ -10,17 +10,18 @@ form.addEventListener("submit", function (e) {
     const mensagem = form.message.value;
 
     const texto =
+        
 `Olá Ryan!
 
 Recebi seu portfólio e gostaria de entrar em contato.
 
-👤 Nome: ${nome}
+Nome: ${nome}
 
-📧 Email: ${email}
+Email para Contato: ${email}
 
-📝 Assunto: ${assunto}
+Assunto: ${assunto}
 
-💬 Mensagem:
+Mensagem:
 ${mensagem}`;
 
     const numero = "5511968751538"; // Seu WhatsApp
