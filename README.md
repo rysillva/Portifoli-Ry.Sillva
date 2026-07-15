@@ -43,10 +43,14 @@ portfolio/
 │   └── responsive.css
 │
 ├── js/
-│   └── script.js
+│   ├── email.js
+│   ├── script.js
+│   └── tiping.js
 │
-├── img/
 ├── assets/
+│   ├── img/
+│   ├── icons/  
+│   └── pdf
 │
 ├── index.html
 └── README.md
