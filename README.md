@@ -50,7 +50,7 @@ portfolio/
 ├── assets/
 │   ├── img/
 │   ├── icons/  
-│   └── pdf
+│   └── pdf/
 │
 ├── index.html
 └── README.md
