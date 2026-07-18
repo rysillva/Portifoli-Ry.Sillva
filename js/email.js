@@ -55,7 +55,7 @@ form.addEventListener("submit", async function (e) {
 
         button.innerHTML = "✅ Enviado";
 
-        showToast("Mensagem enviada com sucesso!");
+       showToast("Mensagem enviada!");
 
         form.reset();
 
