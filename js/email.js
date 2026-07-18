@@ -4,32 +4,41 @@ form.addEventListener("submit", function (e) {
 
     e.preventDefault();
 
-    const nome = form.from_name.value;
-    const email = form.from_email.value;
-    const assunto = form.subject.value;
-    const mensagem = form.message.value;
+    const button = form.querySelector("button");
 
-    const texto =
-        
-`Olá Ryan!
+    const originalText = button.innerHTML;
 
-Recebi seu portfólio e gostaria de entrar em contato.
+    button.innerHTML = "Enviando...";
+    button.disabled = true;
 
-Nome: ${nome}
+    emailjs.sendForm(
+        "service_kd4apob",
+        "template_pc3pubb",
+        this
+    )
+    .then(() => {
 
-Email para Contato: ${email}
+        button.innerHTML = "Mensagem enviada!";
 
-Assunto: ${assunto}
+        setTimeout(() => {
 
-Mensagem:
-${mensagem}`;
+            button.innerHTML = originalText;
+            button.disabled = false;
 
-    const numero = "5511968751538"; // Seu WhatsApp
+        }, 2500);
 
-    const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
+        form.reset();
 
-    window.open(url, "_blank");
+    })
+    .catch((error) => {
 
-    form.reset();
+        console.error(error);
+
+        alert("Ocorreu um erro ao enviar a mensagem.");
+
+        button.innerHTML = originalText;
+        button.disabled = false;
+
+    });
 
 });
