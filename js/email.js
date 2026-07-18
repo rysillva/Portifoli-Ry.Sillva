@@ -3,48 +3,78 @@ emailjs.init({
     publicKey: "ADy5LsNIzq_g4nx4_"
 });
 
-// Seleciona o formulário
 const form = document.getElementById("contact-form");
 
-// Evento de envio
-form.addEventListener("submit", function (e) {
+function showToast(message, success = true) {
+
+    const toast = document.getElementById("toast");
+    const text = document.getElementById("toast-text");
+
+    text.textContent = message;
+
+    toast.style.background = success ? "#16a34a" : "#dc2626";
+
+    toast.classList.add("show");
+
+    setTimeout(() => {
+        toast.classList.remove("show");
+    }, 3500);
+
+}
+
+form.addEventListener("submit", async function (e) {
 
     e.preventDefault();
 
     const button = form.querySelector("button[type='submit']");
     const originalText = button.innerHTML;
 
-    // Desabilita o botão enquanto envia
     button.disabled = true;
-    button.innerHTML = "Enviando...";
+    button.innerHTML = "⏳ Enviando...";
 
-    // Envia o formulário
-    emailjs.sendForm(
-        "service_kd4apob",
-        "template_pc3pubb",
-        form
-    )
-    .then(() => {
+    try {
 
-        button.innerHTML = "✅ Mensagem enviada!";
+        // Envia para você
+        await emailjs.sendForm(
+            "service_kd4apob",
+            "template_pc3pubb",
+            form
+        );
 
-        setTimeout(() => {
-            button.innerHTML = originalText;
-            button.disabled = false;
-        }, 2500);
+        // Envia resposta automática
+        await emailjs.send(
+            "service_kd4apob",
+            "template_0s5lnj6",
+            {
+                from_name: form.from_name.value,
+                from_email: form.from_email.value,
+                subject: form.subject.value,
+                message: form.message.value
+            }
+        );
+
+        button.innerHTML = "✅ Enviado";
+
+        showToast("Mensagem enviada com sucesso!");
 
         form.reset();
 
-    })
-    .catch((error) => {
+        setTimeout(() => {
 
-        console.error("Erro ao enviar:", error);
+            button.innerHTML = originalText;
+            button.disabled = false;
+
+        }, 2500);
+
+    } catch (error) {
+
+        console.error(error);
 
         button.innerHTML = originalText;
         button.disabled = false;
 
-        alert("❌ Não foi possível enviar a mensagem. Tente novamente.");
+        showToast("Erro ao enviar a mensagem.", false);
 
-    });
+    }
 
 });
