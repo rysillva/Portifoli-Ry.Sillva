@@ -1386,3 +1386,87 @@ footer span{
     opacity:1;
 
 }
+
+.toast{
+
+    position:fixed;
+
+    top:30px;
+
+    right:30px;
+
+    width:350px;
+
+    background:#111827;
+
+    color:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:18px;
+
+    border-radius:15px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.3);
+
+    transform:translateX(450px);
+
+    opacity:0;
+
+    transition:.45s ease;
+
+    z-index:9999;
+
+}
+
+.toast.show{
+
+    transform:translateX(0);
+
+    opacity:1;
+
+}
+
+.toast-icon{
+
+    width:50px;
+
+    height:50px;
+
+    background:#22c55e;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+
+.toast-content h4{
+
+    margin:0;
+
+    font-size:18px;
+
+}
+
+.toast-content p{
+
+    margin-top:5px;
+
+    color:#d1d5db;
+
+    font-size:14px;
+
+}
