@@ -78,3 +78,17 @@ form.addEventListener("submit", async function (e) {
     }
 
 });
+
+function showToast(){
+
+    const toast = document.getElementById("toast");
+
+    toast.classList.add("show");
+
+    setTimeout(() => {
+
+        toast.classList.remove("show");
+
+    }, 4000);
+
+}
