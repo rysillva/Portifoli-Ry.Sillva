@@ -1470,3 +1470,39 @@ footer span{
     font-size:14px;
 
 }
+
+.project-buttons{
+    display:flex;
+    gap:15px;
+    margin-top:25px;
+    flex-wrap:wrap;
+}
+
+.btn-project{
+    background:var(--primary);
+    color:#fff;
+    padding:12px 22px;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-project:hover{
+    background:var(--primary-light);
+    transform:translateY(-3px);
+}
+
+.btn-project-outline{
+    border:2px solid var(--primary);
+    color:var(--primary);
+    padding:10px 22px;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-project-outline:hover{
+    background:var(--primary);
+    color:#fff;
+    transform:translateY(-3px);
+}
