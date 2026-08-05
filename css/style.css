@@ -237,12 +237,15 @@ nav a:hover{
 
 .projects{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
     gap:35px;
+    align-items:stretch;
 }
 
 .project{
-    display: flex;
+    display:flex;
+    flex-direction:column;
+    height:100%;
     background:var(--surface);
     border-radius:20px;
     overflow:hidden;
@@ -262,11 +265,8 @@ nav a:hover{
 }
 
 .project-content{
-    padding:28px;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-
+    padding:30px;
+    min-height:320px;
 }
 
 .project-content h3{
@@ -1477,10 +1477,10 @@ footer span{
 }
 
 .project-buttons{
-    display:flex;
-    gap:15px;
-    margin-top:25px;
-    flex-wrap:wrap;
+    display: flex;
+    gap: 15px;
+    margin-top: auto;
+    flex-wrap: wrap;
 }
 
 .btn-project{
