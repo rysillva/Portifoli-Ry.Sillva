@@ -236,10 +236,9 @@ nav a:hover{
 }
 
 .projects{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
-    gap:35px;
-    align-items:stretch;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
 }
 
 .project{
