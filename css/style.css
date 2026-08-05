@@ -242,6 +242,7 @@ nav a:hover{
 }
 
 .project{
+    display: flex;
     background:var(--surface);
     border-radius:20px;
     overflow:hidden;
@@ -262,6 +263,10 @@ nav a:hover{
 
 .project-content{
     padding:28px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
 }
 
 .project-content h3{
